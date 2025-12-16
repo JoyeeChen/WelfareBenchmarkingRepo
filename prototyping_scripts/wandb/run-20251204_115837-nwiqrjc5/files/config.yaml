@@ -1,0 +1,53 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            m5lys8pnvwvce3gmvzz04gj8wc64y7db:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 19
+                    memoryGb: 16
+                    name: Apple M2 Pro
+                    pcpuCores: 8
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "5368709120"
+                codePath: /Users/joyeechen/ResearchRepo/prototyping_scripts/Dec2prototypewithtogetheraicompute.ipynb
+                codePathLocal: Dec2prototypewithtogetheraicompute.ipynb
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "116647587840"
+                email: chen.joyee@gmail.com
+                executable: /Users/joyeechen/ResearchRepo/.venv/bin/python
+                git:
+                    commit: 38b3ee034f3c8ea55404b9788b6c8cd5ed1a5ebd
+                    remote: https://github.com/JoyeeChen/ResearchRepo.git
+                host: Joyees-MacBook-Pro.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/joyeechen/ResearchRepo/prototyping_scripts/Dec2prototypewithtogetheraicompute.ipynb
+                python: CPython 3.12.12
+                root: /Users/joyeechen/ResearchRepo/prototyping_scripts
+                startedAt: "2025-12-04T19:58:37.487161Z"
+                writerId: m5lys8pnvwvce3gmvzz04gj8wc64y7db
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 95
+            "2":
+                - 1
+                - 49
+                - 51
+                - 95
+            "3":
+                - 2
+            "4": 3.12.12
+            "5": 0.23.1
+            "8":
+                - 1
+            "12": 0.23.1
+            "13": darwin-arm64

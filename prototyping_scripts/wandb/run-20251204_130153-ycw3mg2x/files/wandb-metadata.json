@@ -1,0 +1,37 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.12.12",
+  "startedAt": "2025-12-04T21:01:53.803438Z",
+  "program": "/Users/joyeechen/ResearchRepo/prototyping_scripts/Dec2prototypewithtogetheraicompute.ipynb",
+  "codePath": "/Users/joyeechen/ResearchRepo/prototyping_scripts/Dec2prototypewithtogetheraicompute.ipynb",
+  "codePathLocal": "Dec2prototypewithtogetheraicompute.ipynb",
+  "git": {
+    "remote": "https://github.com/JoyeeChen/ResearchRepo.git",
+    "commit": "38b3ee034f3c8ea55404b9788b6c8cd5ed1a5ebd"
+  },
+  "email": "chen.joyee@gmail.com",
+  "root": "/Users/joyeechen/ResearchRepo/prototyping_scripts",
+  "host": "Joyees-MacBook-Pro.local",
+  "executable": "/Users/joyeechen/ResearchRepo/.venv/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "118898601984"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M2 Pro",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 19,
+    "memoryGb": 16,
+    "swapTotalBytes": "7516192768",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "r9scpn58ufw3b4l1hld869yzcdi1jn8j"
+}

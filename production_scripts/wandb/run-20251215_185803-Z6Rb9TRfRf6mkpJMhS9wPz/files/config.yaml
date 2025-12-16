@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            at2hv7gdu4q65s7e443smgh7awqrtlqo:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 19
+                    memoryGb: 16
+                    name: Apple M2 Pro
+                    pcpuCores: 8
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "8589934592"
+                codePath: /Users/joyeechen/WelfareBenchmarkingRepo/production_scripts/rrsInJupyterNotebooksDemo.ipynb
+                codePathLocal: rrsInJupyterNotebooksDemo.ipynb
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "124582756352"
+                email: chen.joyee@gmail.com
+                executable: /Users/joyeechen/WelfareBenchmarkingRepo/.venv/bin/python
+                git:
+                    commit: 0f1c46cfa262054676f5b56aaae3c0777d12b352
+                    remote: https://github.com/JoyeeChen/WelfareBenchmarkingRepo.git
+                host: Joyees-MacBook-Pro.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/joyeechen/WelfareBenchmarkingRepo/production_scripts/rrsInJupyterNotebooksDemo.ipynb
+                python: CPython 3.12.12
+                root: /Users/joyeechen/WelfareBenchmarkingRepo/production_scripts
+                startedAt: "2025-12-16T02:58:03.298910Z"
+                writerId: at2hv7gdu4q65s7e443smgh7awqrtlqo
+        m:
+            - "1": accuracy
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": samples
+              "6": []
+              "7": []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 49
+                - 51
+                - 95
+            "2":
+                - 49
+                - 51
+                - 95
+            "3":
+                - 2
+                - 7
+                - 14
+                - 18
+                - 62
+            "4": 3.12.12
+            "5": 0.23.0
+            "8":
+                - 1
+            "12": 0.23.0
+            "13": darwin-arm64
+weave_run_url:
+    value: https://wandb.ai/chen-joyee-team/ResearchRepoProduction/r/call/019b2517-eba1-7c60-bd0a-21098f8259f1

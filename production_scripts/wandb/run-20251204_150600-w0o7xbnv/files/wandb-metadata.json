@@ -1,0 +1,36 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.12.12",
+  "startedAt": "2025-12-04T23:06:00.321913Z",
+  "program": "/Users/joyeechen/ResearchRepo/production_scripts/Dec4SimpleEvalRun.py",
+  "codePath": "production_scripts/Dec4SimpleEvalRun.py",
+  "codePathLocal": "production_scripts/Dec4SimpleEvalRun.py",
+  "git": {
+    "remote": "https://github.com/JoyeeChen/ResearchRepo.git",
+    "commit": "a0bd22878f7a360f5981fe706d58e9740e079ef2"
+  },
+  "email": "chen.joyee@gmail.com",
+  "root": "/Users/joyeechen/ResearchRepo",
+  "host": "Mac.localdomain",
+  "executable": "/Users/joyeechen/ResearchRepo/.venv/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "110906101760"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M2 Pro",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 19,
+    "memoryGb": 16,
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "hj83mu1j1gtl7nxhaw0hl3oao2amq0zy"
+}

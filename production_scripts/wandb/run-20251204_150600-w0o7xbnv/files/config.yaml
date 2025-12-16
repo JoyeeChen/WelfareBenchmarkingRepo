@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            hj83mu1j1gtl7nxhaw0hl3oao2amq0zy:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 19
+                    memoryGb: 16
+                    name: Apple M2 Pro
+                    pcpuCores: 8
+                    ramTotalBytes: "17179869184"
+                codePath: production_scripts/Dec4SimpleEvalRun.py
+                codePathLocal: production_scripts/Dec4SimpleEvalRun.py
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "110906101760"
+                email: chen.joyee@gmail.com
+                executable: /Users/joyeechen/ResearchRepo/.venv/bin/python
+                git:
+                    commit: a0bd22878f7a360f5981fe706d58e9740e079ef2
+                    remote: https://github.com/JoyeeChen/ResearchRepo.git
+                host: Mac.localdomain
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/joyeechen/ResearchRepo/production_scripts/Dec4SimpleEvalRun.py
+                python: CPython 3.12.12
+                root: /Users/joyeechen/ResearchRepo
+                startedAt: "2025-12-04T23:06:00.321913Z"
+                writerId: hj83mu1j1gtl7nxhaw0hl3oao2amq0zy
+        m:
+            - "1": accuracy
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": samples
+              "6": []
+              "7": []
+        python_version: 3.12.12
+        t:
+            "2":
+                - 49
+                - 51
+                - 95
+            "3":
+                - 2
+                - 7
+                - 18
+                - 24
+                - 62
+            "4": 3.12.12
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": darwin-arm64
+weave_run_url:
+    value: https://wandb.ai/chen-joyee-team/ResearchRepoProduction/r/call/019aeb9d-a27f-7a3e-95bb-973c2f2e280b
