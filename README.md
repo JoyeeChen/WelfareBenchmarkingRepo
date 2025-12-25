@@ -8,6 +8,7 @@ The .env file that is needed at this repo's root should contain:
 `TOGETHER_API_KEY = ...` (from together.ai)
 `WANDB_ENTITY = ...` (from wandb.ai)
 `WANDB_API_KEY = ...` (from wandb.ai)
+`HF_TOKEN = ...` (from Huggingface)
 
 General advice:
 
