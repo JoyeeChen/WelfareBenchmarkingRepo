@@ -1,0 +1,71 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            cclbv16vj8pyy0uz22ih2qc2d46hybra:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 19
+                    memoryGb: 16
+                    name: Apple M2 Pro
+                    pcpuCores: 8
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "5368709120"
+                codePath: /Users/joyeechen/WelfareBenchmarkingRepo/prototyping_scripts/DimensionsRecommenderDemo.ipynb
+                codePathLocal: DimensionsRecommenderDemo.ipynb
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "121213255680"
+                email: chen.joyee@gmail.com
+                executable: /Users/joyeechen/WelfareBenchmarkingRepo/.venv/bin/python
+                git:
+                    commit: 657aba949eaa469a70cce3bc7142827c3cb2c4cd
+                    remote: https://github.com/JoyeeChen/WelfareBenchmarkingRepo.git
+                host: Joyees-MacBook-Pro.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/joyeechen/WelfareBenchmarkingRepo/prototyping_scripts/DimensionsRecommenderDemo.ipynb
+                python: CPython 3.12.12
+                root: /Users/joyeechen/WelfareBenchmarkingRepo/prototyping_scripts
+                startedAt: "2025-12-29T19:37:39.760422Z"
+                writerId: cclbv16vj8pyy0uz22ih2qc2d46hybra
+        m:
+            - "1": accuracy
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": samples
+              "6": []
+              "7": []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 49
+                - 51
+                - 95
+            "2":
+                - 49
+                - 51
+                - 95
+            "3":
+                - 2
+                - 7
+                - 14
+                - 18
+                - 62
+            "4": 3.12.12
+            "5": 0.23.1
+            "8":
+                - 1
+            "12": 0.23.1
+            "13": darwin-arm64
+inspect task metadata:
+    value:
+        3qAenpPcqrzgxwJiCVbBMq:
+            weave_run_url: https://wandb.ai/chen-joyee-team/ResearchRepoPrototyping/r/call/019b6b9d-c1f5-7197-b6d3-a140dea228ce

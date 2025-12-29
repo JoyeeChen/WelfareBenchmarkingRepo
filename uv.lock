@@ -1036,7 +1036,7 @@ dependencies = [
 
 [[package]]
 name = "inspect-wandb"
-version = "0.2.0"
+version = "0.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "inspect-ai" },
@@ -1044,9 +1044,9 @@ dependencies = [
     { name = "pydantic-settings" },
     { name = "wandb" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c5/ba/69c9680ff35ab8c67c6e611520107de0a8c95eca574a1633b610b9e3bd8f/inspect_wandb-0.2.0.tar.gz", hash = "sha256:3bdc202c296de5afc6f83aebf802fe76b27476f73cb479d9994d99440669b688", size = 19111, upload-time = "2025-10-29T15:12:50.089Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/34/4f/0f52f6af1a10e9df22d9986937f243877763d88aedb8705320df45664aec/inspect_wandb-0.2.1.tar.gz", hash = "sha256:b824f2b91a590185b812f8944291a97c13478c599a6db29d03b45730d472951c", size = 18961, upload-time = "2025-12-17T08:53:03.424Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ed/66/38039b8c1a7a9ccf5d68ba7cf02c57b510071dc6169852c3db2866681fdf/inspect_wandb-0.2.0-py3-none-any.whl", hash = "sha256:4670777591693e03d7721a41dc3381e6f51bc32584e00b225c1452e2bb3b1b92", size = 22392, upload-time = "2025-10-29T15:12:48.892Z" },
+    { url = "https://files.pythonhosted.org/packages/e6/d8/cdf636e20a2cacb8f8982694d722d9a94e009965e343b053aab386ae7ef6/inspect_wandb-0.2.1-py3-none-any.whl", hash = "sha256:e55b6e6fa877f312ce0975e289c137655a42125726005159830e325665602c12", size = 22223, upload-time = "2025-12-17T08:53:02.376Z" },
 ]
 
 [[package]]
@@ -3113,7 +3113,7 @@ requires-dist = [
     { name = "gql", specifier = "<4" },
     { name = "inspect-ai", specifier = ">=0.3.143" },
     { name = "inspect-evals", git = "https://github.com/UKGovernmentBEIS/inspect_evals.git" },
-    { name = "inspect-wandb", specifier = "==0.2.0" },
+    { name = "inspect-wandb", specifier = "==0.2.1" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
     { name = "nbformat", specifier = ">=5.10.4" },
     { name = "openai", specifier = ">=2.8.1" },
