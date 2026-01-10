@@ -4,7 +4,7 @@ This folder contains scripts that are to be run in prototyping (i.e. exploratory
 Associated wandb project: https://wandb.ai/chen-joyee-team/ResearchRepoPrototyping
 
 This folder needs a .env file with:
-`WANDB_PROJECT = ...`
+`WANDB_PROJECT = ...` (from wandb.ai)
 
 Some ideas for prototyping:
 
