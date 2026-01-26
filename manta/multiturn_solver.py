@@ -30,6 +30,7 @@ def multi_turn_conversation():
     4. Final state contains the complete conversation
     """
 
+    # solver - a python funx that takes a TaskState & generate function --> returns the TaskState
     async def solve(state, generate):
         # Get the turns from metadata
         all_turns = state.metadata.get('all_turns', [])
@@ -50,42 +51,15 @@ def multi_turn_conversation():
             state.messages.append(
                 ChatMessageUser(content=turn['content'])
             )
-
             # Generate model's response
             state = await generate(state)
 
+        if state.messages:
+            last_message = state.messages[-1]
+            if hasattr(last_message, "content"):
+                state.output = last_message.content
+                
         # Return final state with complete conversation
-        return state
-
-    return solve
-
-
-# Alternative: Simpler version that just generates all turns at once
-@solver
-def simple_multiturn():
-    """
-    Simpler multi-turn solver - adds all user turns upfront,
-    then generates all responses in sequence.
-    """
-
-    async def solve(state, generate):
-        all_turns = state.metadata.get('all_turns', [])
-
-        if len(all_turns) <= 1:
-            return await generate(state)
-
-        # Clear existing messages and rebuild from all_turns
-        state.messages = []
-
-        for i, turn in enumerate(all_turns):
-            # Add user message
-            state.messages.append(
-                ChatMessageUser(content=turn['content'])
-            )
-
-            # Generate assistant response
-            state = await generate(state)
-
         return state
 
     return solve
