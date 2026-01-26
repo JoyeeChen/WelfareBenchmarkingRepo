@@ -14,8 +14,8 @@ Custom Inspect AI solver that handles multi-turn adversarial conversations
 # Returns the complete conversation in the state object
 # Without this custom solver, Inspect AI would only do single-turn Q&A. This solver makes the multi-turn adversarial pressure work.
 
-from inspect_ai.solver import Solver, solver, Generate
-from inspect_ai.model import ChatMessageUser, ChatMessageAssistant, get_model
+from inspect_ai.solver import solver
+from inspect_ai.model import ChatMessageUser
 
 
 @solver
@@ -54,12 +54,8 @@ def multi_turn_conversation():
             # Generate model's response
             state = await generate(state)
 
-        if state.messages:
-            last_message = state.messages[-1]
-            if hasattr(last_message, "content"):
-                state.output = last_message.content
-                
         # Return final state with complete conversation
+        # Inspect AI will automatically capture state.output from the last generate() call
         return state
 
     return solve
