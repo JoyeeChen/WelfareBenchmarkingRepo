@@ -1,0 +1,36 @@
+{
+  "os": "macOS-26.2-arm64-arm-64bit",
+  "python": "CPython 3.12.12",
+  "startedAt": "2026-02-01T19:20:52.842942Z",
+  "program": "/Users/joyeechen/WelfareBenchmarkingRepo/agent_eval_prototyping/TryingOutInspectAgentsDay2.ipynb",
+  "codePath": "/Users/joyeechen/WelfareBenchmarkingRepo/agent_eval_prototyping/TryingOutInspectAgentsDay2.ipynb",
+  "codePathLocal": "TryingOutInspectAgentsDay2.ipynb",
+  "git": {
+    "remote": "https://github.com/JoyeeChen/WelfareBenchmarkingRepo.git",
+    "commit": "315cd6431da6ed6fa7a43c76fbab0bb960416739"
+  },
+  "email": "chen.joyee@gmail.com",
+  "root": "/Users/joyeechen/WelfareBenchmarkingRepo/agent_eval_prototyping",
+  "host": "Joyees-MacBook-Pro.local",
+  "executable": "/Users/joyeechen/WelfareBenchmarkingRepo/.venv/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "132856864768"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M2 Pro",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 19,
+    "memoryGb": 16,
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "gqmmws6jzuq8q6clbfr03tp7vmpyjo8k"
+}

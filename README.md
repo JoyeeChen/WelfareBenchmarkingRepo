@@ -9,6 +9,7 @@ The .env file that is needed at this repo's root should contain:
 `WANDB_ENTITY = ...` (from wandb.ai)
 `WANDB_API_KEY = ...` (from wandb.ai)
 `HF_TOKEN = ...` (from Huggingface)
+`LUNETTE_API_KEY = ...` (from lunette.dev)
 
 General advice:
 
